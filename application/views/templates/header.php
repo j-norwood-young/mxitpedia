@@ -24,7 +24,7 @@
 							<a href="<?= base_url() ?>">Home</a>
 						</li>
 						<li>
-							<form>
+							<form action="" method="post">
 								<input name="search" type="search" placeholder="Search" value="" />
 								<input type="submit" name="submit" value="Search" />
 							</form>
