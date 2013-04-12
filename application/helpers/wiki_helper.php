@@ -2,7 +2,7 @@
 
 function wiki_clean($str) {
 	$str = preg_replace('#<span class="editsection">(.*?)</span>#', '', $str);
-	$str = preg_replace('#<a href="/wiki/#', '<a href="', $str);
+	$str = preg_replace('#<a href="/wiki/#', '<a href="/query/', $str);
 	return $str;
 }
 
