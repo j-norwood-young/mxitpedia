@@ -17,7 +17,7 @@
 		}
 		
 		public function index() {
-			redirect("/query/Main Page");
+			redirect("/wiki/Main Page");
 		}
 	}
 

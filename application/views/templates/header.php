@@ -23,6 +23,12 @@
 						<li class="">
 							<a href="<?= base_url() ?>">Home</a>
 						</li>
+						<li>
+							<form>
+								<input name="search" type="search" placeholder="Search" />
+								<input type="submit" name="submit" value="Search" />
+							</form>
+						</li>
 					</ul>
 				</div>
 			</div>

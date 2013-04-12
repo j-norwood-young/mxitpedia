@@ -41,6 +41,8 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
+$route['wiki'] = "query";
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
