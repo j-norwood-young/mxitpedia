@@ -19,6 +19,10 @@
 		
 		public function _remap() {
 			$query=$this->uri->segment(2);
+			$search = $this->input->get_post("search");
+			if (!empty($search)) {
+				redirect("/query/$search");
+			}
 			$url = $this->config->item('wiki_api')."?format=json&action=query&prop=revisions&rvprop=content&rvparse&titles=".$query;
 			$data = json_decode(file_get_contents($url));
 			$pages = $data->query->pages;
