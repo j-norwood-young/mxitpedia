@@ -1,0 +1,4 @@
+mxitpedia
+=========
+
+Wikipedia for Mxit
