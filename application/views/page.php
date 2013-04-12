@@ -2,9 +2,9 @@
 	$this->load->view("templates/header");
 ?>
 <div class="row">
-<div class="span3 offset6">
+<div class="span4 offset6">
 <form>
-	<input name="search" placeholder="Search" />
+	<input name="search" type="text" placeholder="Search" />
 	<input type="submit" name="submit" value="Search" />
 </form>
 </div>
