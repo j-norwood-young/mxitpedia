@@ -25,7 +25,7 @@
 						</li>
 						<li>
 							<form>
-								<input name="search" type="search" placeholder="Search" />
+								<input name="search" type="search" placeholder="Search" value="" />
 								<input type="submit" name="submit" value="Search" />
 							</form>
 						</li>
