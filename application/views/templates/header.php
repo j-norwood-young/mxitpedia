@@ -4,11 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<title>Equal Education</title>
+	<title>Mopedia</title>
 	<link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
-	<script src="/resources/jquery/jquery-1.9.1.min.js"></script>
-	<script src="/resources/modernizr/modernizr.js"></script>
 </head>
 <body>
 	<div class="container header">
